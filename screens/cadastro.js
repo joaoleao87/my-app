@@ -1,26 +1,11 @@
 
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Image} from 'react-native';
-import { Header, Button, ListItem} from 'react-native-elements';
+import { StyleSheet, Text, View, Button, TextInput, Image} from 'react-native';
 
 export default function App({ navigation }) {
   return (
     <View>
-      <Header
-            
-            centerComponent={{ text: 'Lista', style: { color: '#fff', fontSize:20 } }}
-            rightComponent={
-                <Button 
-                title="+"
-                onPress={()=>navigation.navigate('Cadastro')}
-                ></Button>}
-   />
-       <Image
-          style={styles.imagem}
-          source={{
-            uri: 'https://thumbs.dreamstime.com/b/imagem-do-placeholder-perfil-silhueta-cinzenta-nenhuma-foto-127393523.jpg',
-          }}
-        />
+
         
        <TextInput
         style={styles.input}
@@ -36,6 +21,11 @@ export default function App({ navigation }) {
         style={styles.input}
         placeholder="email"
         keyboardType="email"
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="senha"
+        keyboardType="senha"
       />
       <Button  color='#737373' title="salvar" onPress={() => navigation.navigate("Login")}>
 

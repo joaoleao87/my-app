@@ -16,25 +16,26 @@ export default function App({ navigation }) {
                 ></Button>}
    />
 
-        
+        <Text h4>Nome</Text>
        <TextInput
         style={styles.input}
         placeholder="Nome"
-        keyboardType="Nome"
+        keyboardType="Nilson"
       />
+      <Text h4>Email</Text>
         <TextInput
         style={styles.input}
         placeholder="email"
-        keyboardType="email"
+        keyboardType="nilson@nilson.com"
       />
+      <Text h4>Telefone</Text>
       <TextInput
         style={styles.input}
-        placeholder="telefone"
+        placeholder="81 9898-9898"
         keyboardType="telefone"
       />
-      <Button  color='#737373' title="salvar" onPress={() => navigation.navigate("Home")}>
-
-      </Button>
+      <Button  color='#737373' title="salvar" onPress={() => navigation.navigate("Home")}> </Button>
+      <Button  type="outline" title="Excluir" onPress={() => navigation.navigate("Home")}> </Button>
     </View>
   );
 }

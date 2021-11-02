@@ -8,18 +8,25 @@ export default function App({ navigation }) {
     <View>
             <Header
             
-            centerComponent={{ text: 'Lista', style: { color: '#fff', fontSize:20 } }}
+            centerComponent={{ text: 'Lista de contatos', style: { color: '#fff', fontSize:20 } }}
             rightComponent={
                 <Button 
                 title="+"
-                onPress={()=>navigation.navigate('Cadastro')}
+                onPress={()=>navigation.navigate('Contato')}
                 ></Button>}
    />
     <ListItem>
-    <Text h4>Heading 4</Text>
+    <Text h4>Contato 1</Text>
     <Button 
-                title="+"
-                onPress={()=>navigation.navigate('Cadastro')}
+                title="editar"
+                onPress={()=>navigation.navigate('Editar')}
+                ></Button>          
+    </ListItem>
+    <ListItem>
+    <Text h4>Contato 2</Text>
+    <Button 
+                title="editar"
+                onPress={()=>navigation.navigate('Editar')}
                 ></Button>          
     </ListItem>
     </View>
