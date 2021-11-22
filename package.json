@@ -19,6 +19,7 @@
     "@react-navigation/native-stack": "^6.2.5",
     "expo": "~42.0.0",
     "expo-status-bar": "~1.0.4",
+    "firebase": "^9.5.0",
     "native-base": "3.2.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -29,7 +30,8 @@
     "react-native-svg": "12.1.1",
     "react-native-web": "~0.13.12",
     "styled-components": "^5.3.0",
-    "styled-system": "^5.1.5"
+    "styled-system": "^5.1.5",
+    "yet": "^0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
