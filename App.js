@@ -11,7 +11,7 @@ import Editar from './screens/editar'
 
 
 const Stack = createNativeStackNavigator();
-
+//navegação
 function App() {
   return (
     <NavigationContainer>
