@@ -16,7 +16,13 @@ export default function App({ navigation }) {
                 ></Button>}
    />
     <ListItem>
+    <ListItem>
     <Text h4>Contato 1</Text>
+    </ListItem>
+    <ListItem>
+    <Text h4>12313214</Text>
+    </ListItem>
+    
     <Button 
                 title="editar"
                 onPress={()=>navigation.navigate('Editar')}
